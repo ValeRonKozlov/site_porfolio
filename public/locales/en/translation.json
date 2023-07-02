@@ -1,0 +1,20 @@
+{
+  "main": {
+    "nav": {
+      "about me": "About Me",
+      "work": "Work",
+      "kontakt": "Kontakt"
+    },
+    "header": "Hello 👋 my name is Valera you have been teleport to my page",
+    "descr": "I am a web developer / programmer.Experienced, learning and passionate about my every work.",
+    "btn": "view projects"
+  },
+  "music": {
+    "title": "Chill Music",
+    "play": "Play",
+    "stop": "Stop"
+  },
+  "error": {
+    "msg": "Ops! Something went wrong! Go back to homepage!"
+  }
+}

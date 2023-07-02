@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "YsabeauOffice-ExtraBoldItalic";
+  src: local(YsabeauOffice-ExtraBoldItalic), local(YsabeauOfficeExtraBoldItalic),
+    url("../fonts/YsabeauOffice-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/YsabeauOffice-ExtraBoldItalic.woff") format("woff");
+  font-style: italic;
+  font-display: swap;
+  font-weight: 1000;
+}
+@font-face {
+  font-family: "YsabeauOffice-Italic";
+  src: local(YsabeauOffice-Italic), local(YsabeauOfficeItalic),
+    url("../fonts/YsabeauOffice-Italic.woff2") format("woff2"),
+    url("../fonts/YsabeauOffice-Italic.woff") format("woff");
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+}
