@@ -16,5 +16,8 @@
   },
   "error": {
     "msg": "Ops! Something went wrong! Go back to homepage!"
+  },
+  "about": {
+    "title": "About Me!"
   }
 }
