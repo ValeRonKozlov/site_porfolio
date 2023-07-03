@@ -1,0 +1,19 @@
+.translate__list {
+  display: flex;
+}
+.translate__list-item {
+  margin-right: 5px;
+  border: none;
+}
+.translate__list-item:hover {
+  transform: scale(1.2);
+}
+.translalte__list-item-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.translate__list-item-img {
+  width: 20px;
+  height: 16px;
+}
