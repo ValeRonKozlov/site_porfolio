@@ -1,0 +1,13 @@
+.header__nav {
+  display: flex;
+}
+.nav-tag {
+  margin-right: 150px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
+.list-item:not(:last-child) {
+  margin-right: 30px;
+}

@@ -1,0 +1,9 @@
+.github-link:hover {
+  transform: scale(1.2);
+}
+
+.github-img {
+  width: 20px;
+  height: 20px;
+}
+

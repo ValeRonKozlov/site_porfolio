@@ -19,5 +19,14 @@
   },
   "about": {
     "title": "About Me!"
+  },
+  "works": {
+    "title": "My Works!"
+  },
+  "contact": {
+    "title": "My Contacts!"
+  },
+  "footer": {
+    "descr": "Made with Love By Me 2023"
   }
 }
