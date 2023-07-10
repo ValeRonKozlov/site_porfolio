@@ -2,18 +2,40 @@
   display: flex;
 }
 .translate__list-item {
-  margin-right: 5px;
-  border: none;
+  position: relative;
+  margin-right: 8px;
+  outline: none;
+  border-radius: 10px;
 }
-.translate__list-item:hover {
-  transform: scale(1.2);
+.translate__list-item::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff9900;
+  transition: width 0.3s ease-in-out;
+}
+.translate__list-item:hover::after {
+  width: 100%;
+}
+
+.translate__list-item:active::after {
+  width: 100%;
+  background-color: #e1670e;
 }
 .translalte__list-item-btn {
   border: none;
   background-color: transparent;
+  outline: none;
 }
-
+.translalte__list-item-btn:focus {
+  outline-offset: 2px;
+  border: 2px solid #ff9900;
+  border-radius: 5px;
+}
 .translate__list-item-img {
-  width: 20px;
-  height: 16px;
+  width: 30px;
+  height: 26px;
 }

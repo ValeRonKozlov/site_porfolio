@@ -1,0 +1,29 @@
+.sound-title {
+  margin-bottom: 5px;
+}
+.sound-btn {
+  padding: 3px 5px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.sound-btn:not(:last-child) {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.sound-btn:hover {
+  border: none;
+  background-color: #ff9900;
+  color: #fff;
+  /* transition: border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out; */
+}
+.sound-btn:focus {
+  border: none;
+  background-color: #ff9900;
+  color: #fff;
+}
+.sound-btn:active {
+  border: none;
+  background-color: #e1670e;
+  color: #fff;
+}

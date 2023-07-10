@@ -1,6 +1,7 @@
 .header {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 100px 200px 110px;
+  grid-template-rows: 80px;
   align-items: center;
-  justify-content: space-around;
 }
