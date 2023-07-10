@@ -1,13 +1,13 @@
 {
-  "main": {
+  "hero": {
     "nav": {
       "about me": "About Me",
       "work": "Work",
       "kontakt": "Kontakt"
     },
-    "header": "Hello 👋 my name is Valera you have been teleport to my page",
+    "header": "Hello 👋 my name is Valera!",
     "descr": "I am a web developer / programmer.Experienced, learning and passionate about my every work.",
-    "btn": "view projects"
+    "btn": "View Projects"
   },
   "music": {
     "title": "Chill Music",
