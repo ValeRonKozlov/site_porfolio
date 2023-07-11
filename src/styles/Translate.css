@@ -21,6 +21,7 @@
   width: 100%;
 }
 
+
 .translate__list-item:active::after {
   width: 100%;
   background-color: #e1670e;
@@ -38,4 +39,18 @@
 .translate__list-item-img {
   width: 30px;
   height: 26px;
+}
+
+@media (max-width: 1024px) {
+  .translate__list {
+    grid-column: 3/4;
+    justify-self: end;
+  }
+}
+
+@media (max-width: 768px) {
+  .translate__list {
+    grid-column: 2/1;
+    justify-self: start;
+  }
 }

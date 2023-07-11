@@ -3,7 +3,7 @@
 }
 .sound-btn {
   padding: 3px 5px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 10px;
   background-color: transparent;
 }
@@ -12,7 +12,7 @@
   margin-bottom: 10px;
 }
 .sound-btn:hover {
-  border: none;
+  border: 1px solid #ff9900;
   background-color: #ff9900;
   color: #fff;
   /* transition: border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out; */

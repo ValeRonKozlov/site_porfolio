@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 400px;
+  width: auto;
+  height: 80vh;
+}
+.about-photo {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 150px;
+  transform: scale(1.5);
+}
+
+.about-photo:hover {
+  transform: scale(2.5);
+}
+
+
+.about-title {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.line {
+  display: block;
+  width: 260px;
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+.about-descr {
+  font-size: 18px;
+  line-height: 150%;
+
+}

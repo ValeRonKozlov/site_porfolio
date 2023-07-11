@@ -2,7 +2,7 @@ const particlesConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#fff",
+      value: "#000",
     },
     image: "",
     position: "",
@@ -586,4 +586,4 @@ const particlesConfig = {
   emitters: [],
 }
 
-export default particlesConfig()
+export default particlesConfig
