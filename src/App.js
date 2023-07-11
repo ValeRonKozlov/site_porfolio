@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { Suspense } from "react"
 
 
+import ParticlesBackground from "./components/ParticlesBackground";
 
 import { MainPage }  from "./pages/MainPage"
 import { AboutMe } from "./pages/AboutMe"
@@ -14,6 +15,7 @@ import { BaseFooter } from "./components/BaseFooter";
 function App() {
   return (
     <div className="App">
+    <ParticlesBackground/>
       <div className="container">
         <BaseHeader/>
         <Routes>

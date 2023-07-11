@@ -27,3 +27,8 @@
   height: 40px;
 }
 
+@media (max-width: 1024px) {
+  .github-link {
+    grid-column: 3/4;
+  }
+}
