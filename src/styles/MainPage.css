@@ -38,6 +38,9 @@
 .hero-btn:active {
   background-color: #e1670e;
 }
+.hero-btn {
+  padding: 10px 20px;
+}
 
 .hero-image-wrapper {
   width: 100%;
@@ -72,4 +75,5 @@
   }
 }
 
+}
 

@@ -6,9 +6,11 @@
   margin-right: auto;
   transition: color ease-in-out .3s, text-decoration ease .3s ;
 }
+
 .menu {
   display: none;
 }
+
 .item-link {
   position: relative;
 }

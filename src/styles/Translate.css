@@ -21,6 +21,7 @@
   width: 100%;
 }
 
+
 .translate__list-item:active::after {
   width: 100%;
   background-color: #e1670e;
