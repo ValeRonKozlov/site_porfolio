@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 import { Works } from "./Works"
 import { Contact } from "./Contact"
+import ScrollActiion from "../components/ScrollAction"
 
 import "../styles/MainPage.css"
 
@@ -22,6 +23,7 @@ function MainPage() {
           <img className="hero-image" src="./img/main.svg" alt="main" />
         </div>
       </section>
+      <ScrollActiion/>
       <Works />
       <Contact />
     </div>
