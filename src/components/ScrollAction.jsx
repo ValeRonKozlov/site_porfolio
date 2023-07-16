@@ -1,23 +1,47 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
+import '../styles/Aos.css'
 
 
 export default function ScrollActiion() {
-  AOS.init({ duration: 1200 });
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  })
   return (
       <div className="scroll">
-        <div className="item" data-aos="example-anim1">HTML</div>
-        <div className="item" data-aos="example-anim2">JS</div>
-        <div className="item" data-aos="example-anim3">React</div>
-        <div className="item" data-aos="example-anim1">Vue</div>
-        <div className="item" data-aos="example-anim2">Node.js</div>
-        <div className="item" data-aos="example-anim3">Css</div>
-        <div className="item" data-aos="example-anim1">JavaScript</div>
-        <div className="item" data-aos="example-anim2">HTML5</div>
-        <div className="item" data-aos="example-anim3">Css3</div>
-        <div className="item" data-aos="example-anim1">WebPack</div>
-        <div className="item" data-aos="example-anim2">Jest</div>
-        <div className="item" data-aos="example-anim3">Gulp</div>
+        <div className="item red" data-aos="fade-up" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/htmllogo.svg" alt="html" />
+        </div>
+        <div className="item" data-aos="fade-down" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/csslogo.svg" alt="css" />
+        </div>
+        <div className="item green" data-aos="fade-right" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/javascriptlogo.svg" alt="JavaScript" />
+        </div>
+        <div className="item yellow" data-aos="fade-left" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/nodejslogo.svg" alt="nodeJs" />
+        </div>
+        <div className="item blue" data-aos="flip-left" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/reactjslogo.svg" alt="ReactJs" />
+        </div>
+        <div className="item brown" data-aos="zoom-in" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/jestlogo.png" alt="Jest" />
+        </div>
+        <div className="item red" data-aos="zoom-out" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/webpacklogo.svg" alt="webpack" />
+        </div>
+        <div className="item green" data-aos="fade-right" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./icons/github.svg" alt="github" />
+        </div>
+        <div className="item blue" data-aos="fade-left" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/gulplogo.svg" alt="Gulp" />
+        </div>
+        <div className="item brown" data-aos="flip-left" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/sasslogo.png" alt="Sass" />
+        </div>
+        <div className="item yellow" data-aos="flip-right" data-aos-anchor-placement="center-center">
+          <img className="item-image" src="./img/figmalogo.png" alt="Figma" />
+        </div>
       </div>
   )
 }

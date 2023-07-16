@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 400px;
-  width: auto;
+  padding: 0 300px;
+  margin: 0 auto;
   height: 80vh;
 }
 .about-photo {

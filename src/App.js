@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Suspense } from "react"
 
-
 import ParticlesBackground from "./components/ParticlesBackground";
 
 import { MainPage }  from "./pages/MainPage"
@@ -12,9 +11,11 @@ import { NotFound } from "./pages/NotFound";
 import BaseHeader from "./components/BaseHeader";
 import { BaseFooter } from "./components/BaseFooter";
 
+import 'aos/dist/aos.css'
+
 function App() {
   return (
-    <div className="App">
+    <div className="app">
     <ParticlesBackground/>
       <div className="container">
         <BaseHeader/>

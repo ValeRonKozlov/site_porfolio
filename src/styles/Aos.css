@@ -1,0 +1,27 @@
+.scroll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.item:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.item-image {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}

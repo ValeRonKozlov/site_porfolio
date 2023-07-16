@@ -23,7 +23,8 @@
     "descr": "My name is Valera Kozlov. I'm a self-learning software / web developer. 💻 Mostly I have been working around web development in my career. Cross-browser and adaptive website layout. Using the BEM methodology. Check out Work to see some projects that I have worked on."
   },
   "works": {
-    "title": "My Works!"
+    "title": "My Works!",
+    "descr": "More on"
   },
   "contact": {
     "title": "My Contacts!"
