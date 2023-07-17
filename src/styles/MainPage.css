@@ -1,6 +1,7 @@
 .hero-section {
   display: flex;
   align-items: center;
+  height: 100vh;
 }
 .hero-left-content {
   width: 100%;
@@ -53,6 +54,40 @@
 .hero-image {
   width: auto;
   height: auto;
+}
+
+.backbclock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.backtotop {
+  border: none;
+  font-size: 24px;
+  line-height: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.backtotop::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff9900;
+  transition: width 0.3s ease-in-out;
+}
+.backtotop:hover::after {
+  width: 100%;
+}
+.backtotop:focus::after {
+  width: 100%;
 }
 
 @media (max-width:1024px) {

@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: auto;
-  margin-bottom: 50px;
+  padding: 0 300px;
+  margin-bottom: 100px;
 }
 
 .item {
@@ -17,7 +17,6 @@
 }
 .item:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 40px;
 }
 
 .item-image {

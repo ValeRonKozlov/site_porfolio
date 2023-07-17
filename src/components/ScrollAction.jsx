@@ -5,7 +5,7 @@ import '../styles/Aos.css'
 
 export default function ScrollActiion() {
   useEffect(() => {
-    AOS.init({ duration: 1200 });
+    AOS.init();
   })
   return (
       <div className="scroll">

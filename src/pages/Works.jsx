@@ -25,17 +25,17 @@ function Works() {
             </a>
           </li>
           <li className="works__list-item" data-aos="zoom-out">
-            <a href="https://valeronkozlov.github.io/site_Lagoona/" className="works__list-item-link">
+            <a href="https://valeronkozlov.github.io/site_Lagoona/" className="works__list-item-link" target="blank">
               <img className="works__list-item-link-img" src="./img/lagoonalink.jpg" alt="Lagoona" />
             </a>
           </li>
           <li className="works__list-item" data-aos="fade-right">
-            <a href="https://valeronkozlov.github.io/site_Evklid/" className="works__list-item-link">
+            <a href="https://valeronkozlov.github.io/site_Evklid/" className="works__list-item-link" target="blank">
               <img className="works__list-item-link-img" src="./img/evklidlink.jpg" alt="Evklid" />
             </a>
           </li>
           <li className="works__list-item" data-aos="fade-left">
-            <a href="https://valeronkozlov.github.io/vue_thz/#/" className="works__list-item-link">
+            <a href="https://valeronkozlov.github.io/vue_thz/#/" className="works__list-item-link" target="blank">
               <img className="works__list-item-link-img" src="./img/thzlink.jpg" alt="Thz" />
             </a>
           </li>

@@ -6,11 +6,29 @@ import { Contact } from "./Contact"
 import ScrollActiion from "../components/ScrollAction"
 
 import "../styles/MainPage.css"
+import { useEffect, useState } from "react"
 
 function MainPage() {
 
   const { t } = useTranslation()
 
+  const [scrollTop, setScrollTop] = useState(false)
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if(window.scrollY > 200) {
+        setScrollTop(true)
+      } else {
+        setScrollTop(false)
+      }
+    });
+  }, [])
+
+  const bottomToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
   return (
     <div className="main">
       <section className="hero-section">
@@ -26,6 +44,14 @@ function MainPage() {
       <ScrollActiion/>
       <Works />
       <Contact />
+      {scrollTop && (
+        <div className="backbclock">
+          <img src="./icons/arrowup.png" alt="arrowup" />
+          <button className="backtotop" onClick={bottomToTop}>
+            {t("hero.backtotop")}
+          </button>
+        </div>
+      )}
     </div>
   )
 }
