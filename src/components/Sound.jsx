@@ -1,4 +1,4 @@
-import fon from "../assets/music/fon.mp3"
+import fon from "../music/fon.mp3"
 import { useTranslation } from "react-i18next"
 
 import "../styles/Sound.css"

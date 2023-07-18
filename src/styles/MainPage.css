@@ -1,7 +1,6 @@
 .hero-section {
   display: flex;
   align-items: center;
-  height: 100vh;
 }
 .hero-left-content {
   width: 100%;
@@ -103,7 +102,6 @@
 @media (max-width: 767px) {
   .hero-section {
     display: block;
-    background-image: url('../assets/img/main.svg');
     background-repeat: no-repeat;
     background-size: 200px 200px;
     background-position: top right;

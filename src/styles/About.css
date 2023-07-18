@@ -4,7 +4,7 @@
   align-items: center;
   padding: 0 300px;
   margin: 0 auto;
-  height: 80vh;
+  height: calc(100vh - 130px);
 }
 .about-photo {
   width: 200px;

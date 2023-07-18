@@ -38,8 +38,12 @@
 }
 .container {
   min-width: 320px;
-  height: max-content;
+  width: 1720px;
+  min-height: 100%;
   padding: 0px 100px 10px 100px;
+}
+section {
+  height: 100dvh;
 }
 a {
   text-decoration: none;

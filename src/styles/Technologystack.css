@@ -1,0 +1,21 @@
+.technologystack {
+  display: flex;
+  height: 550px;
+}
+
+.item {
+  display: flex;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.item-image {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}

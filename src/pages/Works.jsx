@@ -15,9 +15,6 @@ function Works() {
 
     return (
       <section className="works">
-        <h2 className="works-title">
-          {t("works.title")}
-        </h2>
         <ul className="works__list">
           <li className="works__list-item" data-aos="zoom-in">
             <a href="https://valeronkozlov.github.io/site_HPass/" className="works__list-item-link" target="blank">

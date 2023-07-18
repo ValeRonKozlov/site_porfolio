@@ -1,42 +1,65 @@
 .contact {
-  text-align: center;
-  padding: 0 300px;
-  height: 100%;
-  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 330px);
+  margin-top: 200px;
+}
+
+.contact-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-image img {
+  width: 50%;
+  height: 50%;
+}
+
+.contact__content {
+  width: 50%;
+  height: 600px;
+
 }
 .contact-title {
   font-size: 32px;
   line-height: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+}
+.contact-descr {
+  width: 350px;
+  margin-bottom: 50px;
 }
 .contact__list {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
-.contact__list-item {
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
 .contact-link {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 25px;
+  margin-bottom: 50px;
 }
 .contact-link:hover {
   transform: scale(1.2);
 }
 
-.contact__list-item:not(:nth-child(2n)) {
-  margin-right: 10px;
-}
-.contact-img {
-  width: 100px;
-  height: 100px;
+.contact-link-img {
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
+}
+
+.email-btn {
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+}
+.email-btn:hover {
+  background-color: #f90;
+  border: 1px solid #f90;
 }
