@@ -3,30 +3,30 @@ import { Suspense } from "react"
 
 import ParticlesBackground from "./components/ParticlesBackground";
 
+import { BaseHeader } from "./components/BaseHeader";
 import { MainPage }  from "./pages/MainPage"
 import { AboutMe } from "./pages/AboutMe"
 import { Works } from "./pages/Works";
 import { Contact } from "./pages/Contact";
-import { NotFound } from "./pages/NotFound";
-import BaseHeader from "./components/BaseHeader";
 import { BaseFooter } from "./components/BaseFooter";
+import { NotFound } from "./pages/NotFound";
 
 import 'aos/dist/aos.css'
 
 function App() {
   return (
     <div className="app">
-    <ParticlesBackground/>
+      <ParticlesBackground/>
       <div className="container">
-        <BaseHeader/>
-        <Routes>
-          <Route path="/" element={<MainPage />}/>
-          <Route path="/about" element={<AboutMe />}/>
-          <Route path="/works" element={<Works />}/>
-          <Route path="/kontakt" element={<Contact />}/>
-          <Route path="*" element={<NotFound />}/>
-        </Routes>
-        <BaseFooter />
+        <BaseHeader />
+          <Routes>
+            <Route path="/" element={<MainPage />}/>
+            <Route path="/about" element={<AboutMe />}/>
+            <Route path="/works" element={<Works />}/>
+            <Route path="/kontakt" element={<Contact />}/>
+            <Route path="*" element={<NotFound />}/>
+          </Routes>
+          <BaseFooter />
       </div>
     </div>
   )

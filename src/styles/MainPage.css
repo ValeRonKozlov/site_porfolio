@@ -1,6 +1,8 @@
 .hero-section {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 .hero-left-content {
   width: 100%;

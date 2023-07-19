@@ -28,8 +28,8 @@ function MainPage() {
     })
   }
   return (
-    <div className="main">
-      <section className="hero-section">
+    <section className="main">
+      <div className="hero-section">
         <div className="hero-left-content">
           <h1 className="hero-title">{t("hero.header")}</h1>
           <p className="hero-descr">{t("hero.descr")}</p>
@@ -38,7 +38,7 @@ function MainPage() {
         <div className="hero-image-wrapper">
           <img className="hero-image" src="./img/main.svg" alt="main" />
         </div>
-      </section>
+      </div>
       <TechnologyStack/>
       {scrollTop && (
         <div className="backbclock">
@@ -48,7 +48,7 @@ function MainPage() {
           </button>
         </div>
       )}
-    </div>
+    </section>
   )
 }
 

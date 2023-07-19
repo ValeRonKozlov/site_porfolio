@@ -1,5 +1,6 @@
 .translate__list {
   display: flex;
+  margin-right: 30px;
 }
 .translate__list-item {
   position: relative;
@@ -32,8 +33,7 @@
   outline: none;
 }
 .translalte__list-item-btn:focus {
-  outline-offset: 2px;
-  border: 2px solid #ff9900;
+  outline: solid #f90;
   border-radius: 5px;
 }
 .translate__list-item-img {
@@ -41,16 +41,9 @@
   height: 26px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 500px) {
   .translate__list {
-    grid-column: 3/4;
-    justify-self: end;
-  }
-}
-
-@media (max-width: 768px) {
-  .translate__list {
-    grid-column: 2/1;
-    justify-self: start;
+    margin-right: 0;
+    padding: 0;
   }
 }

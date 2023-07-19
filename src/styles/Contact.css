@@ -1,14 +1,13 @@
 .contact {
   display: flex;
-  width: 100%;
-  height: calc(100vh - 330px);
-  margin-top: 200px;
 }
 
 .contact-image {
   width: 50%;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+  margin-right: 50px;
 }
 .contact-image img {
   width: 50%;
@@ -16,9 +15,9 @@
 }
 
 .contact__content {
+  padding-top: 150px;
   width: 50%;
   height: 600px;
-
 }
 .contact-title {
   font-size: 32px;
@@ -31,6 +30,7 @@
 }
 .contact__list {
   display: flex;
+  padding: 0;
 }
 
 .contact-link {
@@ -41,6 +41,12 @@
   margin-bottom: 50px;
 }
 .contact-link:hover {
+  transform: scale(1.2);
+}
+.contact-link:focus {
+  outline: none;
+  border-radius: 50%;
+  border: 2px solid #f90;
   transform: scale(1.2);
 }
 
@@ -60,6 +66,11 @@
   cursor: pointer;
 }
 .email-btn:hover {
+  background-color: #f90;
+  border: 1px solid #f90;
+}
+.email-btn:focus {
+  outline: none;
   background-color: #f90;
   border: 1px solid #f90;
 }

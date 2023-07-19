@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 300px;
+  width: 700px;
+  padding: 300px 300px;
   margin: 0 auto;
-  height: calc(100vh - 130px);
 }
 .about-photo {
   width: 200px;
