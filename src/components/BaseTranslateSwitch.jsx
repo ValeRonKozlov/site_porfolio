@@ -3,13 +3,16 @@ import i18n from "../i18n"
 
 import "../styles/Translate.css"
 
+import en from "../assets/icons/un.png"
+import ru from "../assets/icons/ru.png"
+
 
 function BaseTranslateSwitch() {
 
     // language translate
     const locales = {
-      en: { title: "en", src: "./icons/un.png" },
-      ru: { title: "ru", src: "./icons/ru.png" },
+      en: { title: "en", src: en },
+      ru: { title: "ru", src: ru },
     }
 
 

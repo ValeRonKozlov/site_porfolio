@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import { useTranslation } from "react-i18next"
 
+import photo from "../assets/img/photo.jpg"
+
 import "../styles/About.css"
 import Aos from "aos"
 
@@ -15,7 +17,7 @@ function AboutMe() {
     return (
       <section className="about">
         <div className="image-wrapper" data-aos="fade-left" data-aos-duration="3000">
-          <img className="about-photo" src="./img/photo.jpg" alt="myphoto" />
+          <img className="about-photo" src={photo} alt="myphoto" />
         </div>
         <div className="about-content" data-aos="fade-left" data-aos-duration="3000">
           <h2 className="about-title">

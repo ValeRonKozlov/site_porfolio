@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
+import main from "../assets/img/main.svg"
+import arrowup from "../assets/icons/arrowup.png"
+
 
 import "../styles/MainPage.css"
 import { useEffect, useState } from "react"
@@ -35,12 +38,12 @@ function MainPage() {
             <Link className="hero-btn" to="/works">{t("hero.btn")}</Link>
         </div>
         <div className="hero-image-wrapper">
-          <img className="hero-image" src="./img/main.svg" alt="main" />
+          <img className="hero-image" src={main} alt="main" />
         </div>
       </div>
       {scrollTop && (
         <div className="backbclock">
-          <img src="./icons/arrowup.png" alt="arrowup" />
+          <img src={arrowup} alt="arrowup" />
           <button className="backtotop" onClick={bottomToTop}>
             {t("hero.backtotop")}
           </button>
