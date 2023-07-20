@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.55de21e2.css",
-    "main.js": "/static/js/main.57c9698f.js",
-    "static/media/fon.mp3": "/static/media/fon.847d7d0219052137ace6.mp3",
-    "static/media/YsabeauOffice-ExtraBoldItalic.woff": "/static/media/YsabeauOffice-ExtraBoldItalic.d7e1d29d17d6a0bc597f.woff",
-    "static/media/YsabeauOffice-Italic.woff": "/static/media/YsabeauOffice-Italic.e5c17aaa45a81683d07d.woff",
-    "static/media/YsabeauOffice-ExtraBoldItalic.woff2": "/static/media/YsabeauOffice-ExtraBoldItalic.21eb74df060b0d126058.woff2",
-    "static/media/YsabeauOffice-Italic.woff2": "/static/media/YsabeauOffice-Italic.54e09a9fb48a9690e9dc.woff2",
-    "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.55de21e2.css.map": "/static/css/main.55de21e2.css.map",
-    "main.57c9698f.js.map": "/static/js/main.57c9698f.js.map"
+    "main.css": "/site_portfolio/static/css/main.2557049e.css",
+    "main.js": "/site_portfolio/static/js/main.fd93fe45.js",
+    "static/media/fon.mp3": "/site_portfolio/static/media/fon.847d7d0219052137ace6.mp3",
+    "static/media/photo.jpg": "/site_portfolio/static/media/photo.87a6eb1a9ede3468b8e2.jpg",
+    "static/media/hightpasslink.jpg": "/site_portfolio/static/media/hightpasslink.952b5e985141a2e31084.jpg",
+    "static/media/lagoonalink.jpg": "/site_portfolio/static/media/lagoonalink.6f3d2892f96389e82589.jpg",
+    "static/media/main.svg": "/site_portfolio/static/media/main.b4d203ea123a166a0cb49b9a330067b9.svg",
+    "static/media/evklidlink.jpg": "/site_portfolio/static/media/evklidlink.f7dec328e2654d83a277.jpg",
+    "static/media/YsabeauOffice-ExtraBoldItalic.woff": "/site_portfolio/static/media/YsabeauOffice-ExtraBoldItalic.d7e1d29d17d6a0bc597f.woff",
+    "static/media/YsabeauOffice-Italic.woff": "/site_portfolio/static/media/YsabeauOffice-Italic.e5c17aaa45a81683d07d.woff",
+    "static/media/thzlink.jpg": "/site_portfolio/static/media/thzlink.9e1cd3ed442dfeb144fc.jpg",
+    "static/media/YsabeauOffice-ExtraBoldItalic.woff2": "/site_portfolio/static/media/YsabeauOffice-ExtraBoldItalic.21eb74df060b0d126058.woff2",
+    "static/media/YsabeauOffice-Italic.woff2": "/site_portfolio/static/media/YsabeauOffice-Italic.54e09a9fb48a9690e9dc.woff2",
+    "static/media/vk.svg": "/site_portfolio/static/media/vk.de496a8403ea3ab26ff50c1482670a18.svg",
+    "static/media/telegram.svg": "/site_portfolio/static/media/telegram.ba44735475365d06bd2c8a9fb22d8017.svg",
+    "static/media/github.svg": "/site_portfolio/static/media/github.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "static/media/mail.svg": "/site_portfolio/static/media/mail.6ab978ac421e202ee44a759dfd0cc49d.svg",
+    "index.html": "/site_portfolio/index.html",
+    "static/media/getFetch.cjs": "/site_portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.2557049e.css.map": "/site_portfolio/static/css/main.2557049e.css.map",
+    "main.fd93fe45.js.map": "/site_portfolio/static/js/main.fd93fe45.js.map"
   },
   "entrypoints": [
-    "static/css/main.55de21e2.css",
-    "static/js/main.57c9698f.js"
+    "static/css/main.2557049e.css",
+    "static/js/main.fd93fe45.js"
   ]
 }
