@@ -21,7 +21,7 @@ function App() {
       <div className="container">
         <BaseHeader />
           <Routes>
-            <Route path="/" element={<MainPage />}/>
+            <Route path="/site_portfolio" element={<MainPage />}/>
             <Route path="/about" element={<AboutMe />}/>
             <Route path="/works" element={<Works />}/>
             <Route path="/kontakt" element={<Contact />}/>

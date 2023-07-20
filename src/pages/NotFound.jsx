@@ -9,7 +9,7 @@ function NotFound() {
 
   return (
     <div className="error-msg">
-      <Link to="/">{t('error.msg')}</Link>
+      <Link to="/site_portfolio">{t('error.msg')}</Link>
     </div>
   )
 }

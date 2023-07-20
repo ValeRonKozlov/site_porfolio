@@ -17,7 +17,7 @@ function BaseHeader() {
 
   return (
     <header className='header'>
-      <Link to="/" className="header-link item-link">
+      <Link to="/site_portfolio" className="header-link item-link">
       &lt; / ValeRon Kozlov &gt;
       </Link>
       <BaseNavigation />

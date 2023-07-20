@@ -5,7 +5,7 @@ import Backend from "i18next-http-backend"
 
 i18n.use(Backend).use(LanguageDetector).use(initReactI18next).init({
   debug: true,
-  fallbackLng: "en",
+  fallbackLng: "ru",
 })
 
 export default i18n
