@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0571cf6.css",
-    "main.js": "/static/js/main.ba06c67b.js",
+    "main.css": "/static/css/main.55de21e2.css",
+    "main.js": "/static/js/main.57c9698f.js",
     "static/media/fon.mp3": "/static/media/fon.847d7d0219052137ace6.mp3",
     "static/media/YsabeauOffice-ExtraBoldItalic.woff": "/static/media/YsabeauOffice-ExtraBoldItalic.d7e1d29d17d6a0bc597f.woff",
     "static/media/YsabeauOffice-Italic.woff": "/static/media/YsabeauOffice-Italic.e5c17aaa45a81683d07d.woff",
@@ -9,11 +9,11 @@
     "static/media/YsabeauOffice-Italic.woff2": "/static/media/YsabeauOffice-Italic.54e09a9fb48a9690e9dc.woff2",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.c0571cf6.css.map": "/static/css/main.c0571cf6.css.map",
-    "main.ba06c67b.js.map": "/static/js/main.ba06c67b.js.map"
+    "main.55de21e2.css.map": "/static/css/main.55de21e2.css.map",
+    "main.57c9698f.js.map": "/static/js/main.57c9698f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0571cf6.css",
-    "static/js/main.ba06c67b.js"
+    "static/css/main.55de21e2.css",
+    "static/js/main.57c9698f.js"
   ]
 }
