@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
-import TechnologyStack from "../components/TechnologyStack"
 
 import "../styles/MainPage.css"
 import { useEffect, useState } from "react"
@@ -39,7 +38,6 @@ function MainPage() {
           <img className="hero-image" src="./img/main.svg" alt="main" />
         </div>
       </div>
-      {/* <TechnologyStack/> */}
       {scrollTop && (
         <div className="backbclock">
           <img src="./icons/arrowup.png" alt="arrowup" />
