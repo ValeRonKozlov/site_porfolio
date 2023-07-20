@@ -12,6 +12,7 @@ import { BaseFooter } from "./components/BaseFooter";
 import { NotFound } from "./pages/NotFound";
 
 import 'aos/dist/aos.css'
+import Preloader from "./components/Preloader";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
 }
 export default function WrappedApp() {
   return (
-    <Suspense fallback="...loading">
+    <Suspense fallback={<Preloader/>}>
       <App />
     </Suspense>
   )

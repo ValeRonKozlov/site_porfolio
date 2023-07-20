@@ -13,9 +13,11 @@ function AboutMe() {
     })
 
     return (
-      <section className="about" data-aos="fade-left" data-aos-duration="3000">
-        <img className="about-photo" src="./img/photo.jpg" alt="myphoto" />
-        <div className="about-content">
+      <section className="about">
+        <div className="image-wrapper" data-aos="fade-left" data-aos-duration="3000">
+          <img className="about-photo" src="./img/photo.jpg" alt="myphoto" />
+        </div>
+        <div className="about-content" data-aos="fade-left" data-aos-duration="3000">
           <h2 className="about-title">
             {t("about.title")}
           </h2>

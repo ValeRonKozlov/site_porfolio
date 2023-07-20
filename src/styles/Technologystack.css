@@ -1,6 +1,9 @@
 .technologystack {
   display: flex;
-  height: 550px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 150px;
+  width: 1628px;
 }
 
 .item {

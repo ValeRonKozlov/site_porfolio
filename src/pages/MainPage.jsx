@@ -39,7 +39,7 @@ function MainPage() {
           <img className="hero-image" src="./img/main.svg" alt="main" />
         </div>
       </div>
-      <TechnologyStack/>
+      {/* <TechnologyStack/> */}
       {scrollTop && (
         <div className="backbclock">
           <img src="./icons/arrowup.png" alt="arrowup" />

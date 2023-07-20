@@ -10,6 +10,7 @@
   border: 1px solid #fff;
   border-radius: 10px;
   background-color: transparent;
+  font-size: 16px;
 }
 .sound-btn:not(:last-child) {
   margin-right: 10px;
@@ -31,9 +32,25 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1440px) {
+  .sound-btn {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .sound {
-    margin-right: auto;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sound {
+    margin-right: 5px;
+  }
+
+  .sound-btn {
+    margin-right: 5px;
+    font-size: 10px;
   }
 }
