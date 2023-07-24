@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 350px;
+  margin-bottom: 300px;
 }
 .image-wrapper {
   padding-top: 200px;
@@ -35,6 +35,42 @@
   width: 100%;
   font-size: 18px;
   line-height: 150%;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-cv {
+  margin-bottom: 20px;
+}
+.cv-icon {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.download-span {
+  position: relative;
+}
+.download-span::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
+}
+.download-span:hover::after {
+  width: 100%;
+}
+.download-span:focus::after {
+  width: 100%;
+}
+.download-cv:hover .cv-icon {
+  fill: #fff;
 }
 
 @media screen and (max-width: 1024px) {
