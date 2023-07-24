@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/site_portfolio/static/css/main.2557049e.css",
-    "main.js": "/site_portfolio/static/js/main.fd93fe45.js",
+    "main.css": "/site_portfolio/static/css/main.86827779.css",
+    "main.js": "/site_portfolio/static/js/main.8cdcac84.js",
     "static/media/fon.mp3": "/site_portfolio/static/media/fon.847d7d0219052137ace6.mp3",
     "static/media/photo.jpg": "/site_portfolio/static/media/photo.87a6eb1a9ede3468b8e2.jpg",
+    "static/media/ValeRonKozlovCvvRU.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvRU.c03480c999bb0c79eebc.pdf",
+    "static/media/ValeRonKozlovCvvEN.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvEN.a6762f49b917eed3fe7d.pdf",
     "static/media/hightpasslink.jpg": "/site_portfolio/static/media/hightpasslink.952b5e985141a2e31084.jpg",
     "static/media/lagoonalink.jpg": "/site_portfolio/static/media/lagoonalink.6f3d2892f96389e82589.jpg",
     "static/media/main.svg": "/site_portfolio/static/media/main.b4d203ea123a166a0cb49b9a330067b9.svg",
@@ -19,11 +21,11 @@
     "static/media/mail.svg": "/site_portfolio/static/media/mail.6ab978ac421e202ee44a759dfd0cc49d.svg",
     "index.html": "/site_portfolio/index.html",
     "static/media/getFetch.cjs": "/site_portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.2557049e.css.map": "/site_portfolio/static/css/main.2557049e.css.map",
-    "main.fd93fe45.js.map": "/site_portfolio/static/js/main.fd93fe45.js.map"
+    "main.86827779.css.map": "/site_portfolio/static/css/main.86827779.css.map",
+    "main.8cdcac84.js.map": "/site_portfolio/static/js/main.8cdcac84.js.map"
   },
   "entrypoints": [
-    "static/css/main.2557049e.css",
-    "static/js/main.fd93fe45.js"
+    "static/css/main.86827779.css",
+    "static/js/main.8cdcac84.js"
   ]
 }
