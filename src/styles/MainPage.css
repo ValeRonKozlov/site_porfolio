@@ -13,34 +13,34 @@
   padding-top: 100px;
   margin-bottom: 30px;
   width: 100%;
-  font-family: "YsabeauOffice-ExtraBoldItalic", serif;
+  font-family: "Roboto-Bold";
   font-size: 54px;
   font-weight: 1000;
-  font-style: italic;
-  color: #fff;
 }
 .hero-descr {
   width: 80%;
   margin-bottom: 50px;
   font-size: 26px;
   line-height: 100%;
-  color: #fff;
 }
 .hero-btn {
   padding: 10px 20px;
   border-radius: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #28564E;
   background-color: transparent;
 }
 
 .hero-btn:hover {
-  background-color: #ff9900;
+  background-color: #28564E;
+  color: #fff;
 }
 .hero-btn:focus {
-  background-color: #ff9900;
+  background-color: #28564E;
+  outline: none;
+  color: #fff;
 }
 .hero-btn:active {
-  background-color: #e1670e;
+  background-color: #79394D;
 }
 .hero-btn {
   padding: 10px 20px;

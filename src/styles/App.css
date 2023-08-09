@@ -337,19 +337,19 @@ template {
 }
 
 @font-face {
-  font-family: "YsabeauOffice-ExtraBoldItalic";
-  src: local(YsabeauOffice-ExtraBoldItalic), local(YsabeauOfficeExtraBoldItalic),
-    url("../fonts/YsabeauOffice-ExtraBoldItalic.woff2") format("woff2"),
-    url("../fonts/YsabeauOffice-ExtraBoldItalic.woff") format("woff");
+  font-family: "Roboto-Regular";
+  src: local(Roboto-Regular), local(RobotoRegular),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
   font-style: italic;
   font-display: swap;
   font-weight: 1000;
 }
 @font-face {
-  font-family: "YsabeauOffice-Italic";
-  src: local(YsabeauOffice-Italic), local(YsabeauOfficeItalic),
-    url("../fonts/YsabeauOffice-Italic.woff2") format("woff2"),
-    url("../fonts/YsabeauOffice-Italic.woff") format("woff");
+  font-family: "Roboto-Bold";
+  src: local(Roboto-Bold), local(RobotoBold),
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -360,13 +360,14 @@ html {
 
 body {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 18px;
+  background-color: #7D8483;
 }
 
 * {
-  font-family: "YsabeauOffice-Italic";
-  font-style: italic;
-  color: #fff;
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  color: #D0CDC5;
 }
 
 h1,h2,h3,h4,h5,h6 {

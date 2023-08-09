@@ -28,7 +28,7 @@
 .line {
   display: block;
   width: 260px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #877240;
   margin-bottom: 20px;
 }
 .about-descr {
@@ -60,7 +60,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: red;
+  background-color: #28564E;
   transition: width 0.3s ease-in-out;
 }
 .download-span:hover::after {
@@ -70,7 +70,7 @@
   width: 100%;
 }
 .download-cv:hover .cv-icon {
-  fill: #fff;
+  fill: #28564E;
 }
 
 @media screen and (max-width: 1024px) {

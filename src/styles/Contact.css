@@ -48,7 +48,7 @@
 .contact-link:focus {
   outline: none;
   border-radius: 50%;
-  border: 2px solid #f90;
+  border: 2px solid #28564E;
   transform: scale(1.2);
 }
 
@@ -61,18 +61,22 @@
 .email-btn {
   text-align: center;
   padding: 10px 20px;
-  border: 2px solid #fff;
+  border: 2px solid #28564E;
   border-radius: 10px;
   font-size: 18px;
   line-height: 100%;
   cursor: pointer;
 }
 .email-btn:hover {
-  background-color: #f90;
+  background-color: #28564E;
 }
 .email-btn:focus {
   outline: none;
-  background-color: #f90;
+  background-color: #28564E;
+}
+.email-btn:active {
+  outline: none;
+  background-color: #79394D;
 }
 
 @media screen and (max-width: 600px) {

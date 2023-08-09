@@ -8,10 +8,15 @@
 }
 
 .header-link {
-  font-weight: 1000;
-  font-size: 30px;
+  font-family: "Roboto-Bold";
+  font-weight: 900;
   line-height: 100%;
   margin-right: auto;
+}
+
+.header-link:hover {
+  transform: scale(1.2);
+  transition: transform .3s  ease;
 }
 
 @media screen and (max-width: 1440px) {

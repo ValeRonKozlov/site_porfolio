@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import BaseNavigation from './BaseNavigation'
 import BaseTranslateSwitch from './BaseTranslateSwitch'
-import Sound from './Sound'
 import { GitHub } from './GitHub'
 
 import "../styles/Header.css"
@@ -22,7 +21,6 @@ function BaseHeader() {
       </Link>
       <BaseNavigation />
       <BaseTranslateSwitch />
-      <Sound />
       <GitHub />
     </header>
   )

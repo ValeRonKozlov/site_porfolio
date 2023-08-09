@@ -15,7 +15,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ff9900;
+  background-color: #28564E;
   transition: width 0.3s ease-in-out;
 }
 .translate__list-item:hover::after {
@@ -25,7 +25,7 @@
 
 .translate__list-item:active::after {
   width: 100%;
-  background-color: #e1670e;
+  background-color: #79394D;
 }
 .translalte__list-item-btn {
   border: none;
@@ -33,7 +33,7 @@
   outline: none;
 }
 .translalte__list-item-btn:focus {
-  outline: solid #f90;
+  outline: solid #28564E;
   border-radius: 5px;
 }
 .translate__list-item-img {
