@@ -337,7 +337,7 @@ template {
 }
 
 @font-face {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular", sans-serif;
   src: local(Roboto-Regular), local(RobotoRegular),
     url("../fonts/Roboto-Regular.woff2") format("woff2"),
     url("../fonts/Roboto-Regular.woff") format("woff");
@@ -346,7 +346,7 @@ template {
   font-weight: 1000;
 }
 @font-face {
-  font-family: "Roboto-Bold";
+  font-family: "Roboto-Bold", sans-serif;
   src: local(Roboto-Bold), local(RobotoBold),
     url("../fonts/Roboto-Bold.woff2") format("woff2"),
     url("../fonts/Roboto-Bold.woff") format("woff");
@@ -361,11 +361,12 @@ html {
 body {
   margin: 0 auto;
   font-size: 18px;
+  line-height: 130%;
   background-color: #7D8483;
 }
 
 * {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular", sans-serif;
   font-style: normal;
   color: #D0CDC5;
 }

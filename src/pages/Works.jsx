@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 
 // import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow} from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -32,6 +32,9 @@ function Works() {
               slidesPerView={2}
               spaceBetween={0}
               loop={false}
+              pagination={{
+                clickable: true,
+              }}
               coverflowEffect={{
                 rotate: 40,
                 stretch: 10,
@@ -39,7 +42,7 @@ function Works() {
                 modifier: 2,
                 slideShadows: false,
               }}
-              modules={[EffectCoverflow]}
+              modules={[EffectCoverflow, Pagination]}
             >
               <SwiperSlide>
                 <a href="https://valeronkozlov.github.io/site_HPass/" className="works__list-item-link" target="blank">

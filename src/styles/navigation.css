@@ -24,14 +24,12 @@
 }
 .list-item:hover::before {
   content: "<";
-  font-family: "Roboto-Bold";
   display: block;
   position: absolute;
   left: -15px;
 }
 .list-item:hover::after {
   content: ">";
-  font-family: "Roboto-Bold";
   display: block;
   position: absolute;
   right: -15px;
@@ -78,61 +76,68 @@
   .header__nav {
     margin-right: 0;
   }
-  .item-link {
-    font-size: 16px;
-  }
+
   .list-item:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 40px;
   }
 }
 
 @media screen and  (max-width: 1023px) {
   .header__nav {
-    margin-right: 75px;
+    margin-right: 0;
+    padding: 0;
   }
   .item-link {
     font-size: 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header__nav {
-    margin-right: auto;
+    margin-right: 20px;
+    padding: 0;
   }
   .item-link {
     font-size: 18px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
   .header__nav {
-    margin-right: 30px;
+    margin-right: 0;
   }
   .nav-list {
     display: none;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
     position: absolute;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     padding-top: 50px;
     width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #7D8483;
     z-index: 2;
   }
   .active  {
     display: flex;
   }
+
   .list-item:not(:last-child) {
+    margin-right: 0;
     margin-bottom: 20px;
   }
   .menu {
     display: block;
     position: relative;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
     font-size: 24px;
   }
   .menu::after {
@@ -142,7 +147,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ff9900;
+    background-color: #28564E;
     transition: width 0.3s ease-in-out;
   }
   .menu:hover::after {
@@ -152,6 +157,6 @@
     width: 100%;
   }
   .menu:active {
-    color: #e1670e;
+    color: #79394D;
   }
 }
