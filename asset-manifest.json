@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site_portfolio/static/css/main.9648f695.css",
-    "main.js": "/site_portfolio/static/js/main.d1f80491.js",
+    "main.js": "/site_portfolio/static/js/main.19d2be7b.js",
     "static/media/photo.jpg": "/site_portfolio/static/media/photo.87a6eb1a9ede3468b8e2.jpg",
     "static/media/hightpasslink.jpg": "/site_portfolio/static/media/hightpasslink.952b5e985141a2e31084.jpg",
     "static/media/ValeRonKozlovCvvRU.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvRU.9af34549976f0d561e75.pdf",
@@ -21,10 +21,10 @@
     "index.html": "/site_portfolio/index.html",
     "static/media/getFetch.cjs": "/site_portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.9648f695.css.map": "/site_portfolio/static/css/main.9648f695.css.map",
-    "main.d1f80491.js.map": "/site_portfolio/static/js/main.d1f80491.js.map"
+    "main.19d2be7b.js.map": "/site_portfolio/static/js/main.19d2be7b.js.map"
   },
   "entrypoints": [
     "static/css/main.9648f695.css",
-    "static/js/main.d1f80491.js"
+    "static/js/main.19d2be7b.js"
   ]
 }
