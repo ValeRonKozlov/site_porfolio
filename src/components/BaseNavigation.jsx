@@ -14,6 +14,7 @@ function BaseNavigation() {
   return (
     <nav className="header__nav">
       <button className="menu" id="menu" onClick={() => setMenuActive(!menuActive)}>{t("hero.menu")}</button>
+      <button className={menuActive ? "menu-close active" : "menu-close"} id="menu-close" onClick={() => setMenuActive(!menuActive)}>X</button>
       <ul className={menuActive ? "nav-list active" : "nav-list"} onClick={() => setMenuActive(false)}>
         <li className="list-item">
           <Link className="item-link" to="/about">{t("hero.nav.about me")}</Link>

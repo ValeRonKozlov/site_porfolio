@@ -4,7 +4,7 @@
   margin-right: auto;
 }
 
-.menu {
+.menu, .menu-close {
   display: none;
 }
 .list-item {
@@ -104,7 +104,11 @@
 
 @media (max-width: 610px) {
   .header__nav {
-    margin-right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 25%;
+    margin-right: 10px;
   }
   .nav-list {
     display: none;
@@ -124,6 +128,21 @@
   }
   .active  {
     display: flex;
+  }
+  .menu-close {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    z-index: 3;
+  }
+  .menu-close:hover {
+    color: #28564E;
+  }
+  .menu-close:focus {
+    color: #28564E;
+  }
+  .menu-close:active {
+    color: #79394D;
   }
 
   .list-item:not(:last-child) {
