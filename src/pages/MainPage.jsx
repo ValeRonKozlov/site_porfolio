@@ -35,7 +35,7 @@ function MainPage() {
         <div className="hero-left-content">
           <h1 className="hero-title">{t("hero.header")}</h1>
           <p className="hero-descr">{t("hero.descr")}</p>
-            <Link className="hero-btn" to="https://github.com/ValeRonKozlov?tab=repositories" target="_blank">{t("hero.btn")}</Link>
+            <Link className="hero-btn" to="/works">{t("hero.btn")}</Link>
         </div>
         <div className="hero-image-wrapper">
           <img className="hero-image" src={main} alt="main" />
