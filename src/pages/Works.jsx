@@ -18,6 +18,8 @@ import hpass from "../assets/img/hightpasslink.jpg"
 import lagoona from "../assets/img/lagoonalink.jpg"
 import evklid from "../assets/img/evklidlink.jpg"
 import thz from "../assets/img/thzlink.jpg"
+import sdpls from "../assets/img/STDPls.png"
+import posts from "../assets/img/post_list.png"
 
 function Works() {
 
@@ -45,21 +47,35 @@ function Works() {
               modules={[EffectCoverflow, Pagination]}
             >
               <SwiperSlide>
-                <a href="https://valeronkozlov.github.io/site_HPass/" className="works__list-item-link" target="blank">
+                <a href="https://valeronkozlov.github.io/site_SitDownPls/" className="works__list-item-link" target="_blank" rel="noreferrer">
+                  <img className="works__list-item-link-img" src={sdpls} alt="SitDownPls" />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="https://valeronkozlov.github.io/site_HPass/" className="works__list-item-link" target="_blank" rel="noreferrer">
                   <img className="works__list-item-link-img" src={hpass} alt="HightPass" />
-                </a></SwiperSlide>
+                </a>
+              </SwiperSlide>
               <SwiperSlide>
-                <a href="https://valeronkozlov.github.io/site_Lagoona/" className="works__list-item-link" target="blank">
+                <a href="https://valeronkozlov.github.io/posts_list/" className="works__list-item-link" target="_blank" rel="noreferrer">
+                  <img className="works__list-item-link-img" src={posts} alt="Posts_list" />
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="https://valeronkozlov.github.io/site_Lagoona/" className="works__list-item-link" target="_blank" rel="noreferrer">
                   <img className="works__list-item-link-img" src={lagoona} alt="Lagoona" />
-                </a></SwiperSlide>
+                </a>
+              </SwiperSlide>
               <SwiperSlide>
-                <a href="https://valeronkozlov.github.io/site_Evklid/" className="works__list-item-link" target="blank">
+                <a href="https://valeronkozlov.github.io/site_Evklid/" className="works__list-item-link" target="_blank" rel="noreferrer">
                   <img className="works__list-item-link-img" src={evklid} alt="Evklid" />
-                </a></SwiperSlide>
+                </a>
+              </SwiperSlide>
               <SwiperSlide>
-                <a href="https://valeronkozlov.github.io/vue_thz/#/" className="works__list-item-link" target="blank">
+                <a href="https://valeronkozlov.github.io/vue_thz/#/" className="works__list-item-link" target="_blank" rel="noreferrer">
                   <img className="works__list-item-link-img" src={thz} alt="Thz" />
-                </a></SwiperSlide>
+                </a>
+              </SwiperSlide>
             </Swiper>
 
         <p className="works-descr">{t("works.descr")} <GitHub/></p>
