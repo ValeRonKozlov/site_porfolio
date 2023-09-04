@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/site_portfolio/static/css/main.9a928c48.css",
-    "main.js": "/site_portfolio/static/js/main.d37b2f68.js",
+    "main.js": "/site_portfolio/static/js/main.89d71c50.js",
+    "static/media/STDPls.png": "/site_portfolio/static/media/STDPls.c116940fc3090a480057.png",
     "static/media/photo.jpg": "/site_portfolio/static/media/photo.87a6eb1a9ede3468b8e2.jpg",
     "static/media/hightpasslink.jpg": "/site_portfolio/static/media/hightpasslink.952b5e985141a2e31084.jpg",
-    "static/media/ValeRonKozlovCvvRU.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvRU.pdf",
-    "static/media/ValeRonKozlovCvvEN.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvEN.pdf",
+    "static/media/ValeRonKozlovCvvRU.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvRU.14690e072927b32ef018.pdf",
+    "static/media/ValeRonKozlovCvvEN.pdf": "/site_portfolio/static/media/ValeRonKozlovCvvEN.f15ff28c7449d387e6f7.pdf",
     "static/media/lagoonalink.jpg": "/site_portfolio/static/media/lagoonalink.6f3d2892f96389e82589.jpg",
     "static/media/main.svg": "/site_portfolio/static/media/main.b4d203ea123a166a0cb49b9a330067b9.svg",
     "static/media/evklidlink.jpg": "/site_portfolio/static/media/evklidlink.f7dec328e2654d83a277.jpg",
     "static/media/Roboto-Bold.woff": "/site_portfolio/static/media/Roboto-Bold.75a1a5b5582b236e0fe3.woff",
     "static/media/Roboto-Regular.woff": "/site_portfolio/static/media/Roboto-Regular.774f99460b8c31560a3c.woff",
     "static/media/thzlink.jpg": "/site_portfolio/static/media/thzlink.9e1cd3ed442dfeb144fc.jpg",
+    "static/media/post_list.png": "/site_portfolio/static/media/post_list.91a3e51ae6afab26b60e.png",
     "static/media/Roboto-Bold.woff2": "/site_portfolio/static/media/Roboto-Bold.a9b9828ed5c9fe47b0d6.woff2",
     "static/media/Roboto-Regular.woff2": "/site_portfolio/static/media/Roboto-Regular.07b8421cf2dd117b2196.woff2",
     "static/media/vk.svg": "/site_portfolio/static/media/vk.de496a8403ea3ab26ff50c1482670a18.svg",
@@ -21,10 +23,10 @@
     "index.html": "/site_portfolio/index.html",
     "static/media/getFetch.cjs": "/site_portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.9a928c48.css.map": "/site_portfolio/static/css/main.9a928c48.css.map",
-    "main.d37b2f68.js.map": "/site_portfolio/static/js/main.d37b2f68.js.map"
+    "main.89d71c50.js.map": "/site_portfolio/static/js/main.89d71c50.js.map"
   },
   "entrypoints": [
     "static/css/main.9a928c48.css",
-    "static/js/main.d37b2f68.js"
+    "static/js/main.89d71c50.js"
   ]
 }
